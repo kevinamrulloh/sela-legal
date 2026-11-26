@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sela Privacy Policy · Sela</title>
+<meta name="description" content="A lightweight podcast and internet radio player for Android. Free, no account, and no ads while you listen.">
+<meta name="theme-color" content="#17634A">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="alternate" hreflang="id" href="../privacy.html">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar"><div class="wrap">
+  <a class="brand" href="../en/"><img src="../assets/sela-symbol.svg" alt="" width="32" height="32"><span>Sela</span></a>
+  <nav aria-label="Documents"><a href="../en/privacy.html" aria-current=page>Privacy Policy</a><a href="../en/terms.html">Terms of Use</a><a class="lang" href="../privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a></nav>
+</div></header>
+<main id="main" class="wrap"><article class="doc"><h1>Sela Privacy Policy</h1><p class="meta">Effective: <time datetime="2026-11-26">26 November 2026</time></p>
+<p>Sela is a free Android app for listening to podcasts and internet radio (package com.kevinamrulloh.sela). It is made and maintained by Amrulloh, an individual developer in Indonesia, who is the data controller for what is described here. This policy explains what stays on your device, what leaves it, and who receives it.</p>
+<h2 id="1-summary">1. Summary</h2>
+<ul>
+<li>Sela has no accounts, no login and no server of its own.</li>
+<li>Your subscriptions, saved lists, listening history and settings are stored only on your device. The developer cannot see them.</li>
+<li>To work, Sela contacts third parties directly from your device: Apple (podcast search and charts), each podcast's and radio station's own servers, and Google (ads).</li>
+<li>There is one Google AdMob banner at the bottom of the More page. There are no ads while you listen.</li>
+<li>Sela contains no analytics or crash-reporting SDK.</li>
+<li>The feedback form is optional. Nothing is sent unless you press Send.</li>
+</ul>
+<h2 id="2-data-that-stays-on-your-device">2. Data that stays on your device</h2>
+<p>The following is created as you use Sela and is stored only in the app's storage on your device. It is not sent to the developer.</p>
+<ul>
+<li>Podcasts you follow, radio stations you add, and per-podcast settings (speed, delete downloads after listening, mark as played, resume from the last position).</li>
+<li>Saved lists and their episodes, episodes you like, listening history, last playback positions, your queue and recent searches.</li>
+<li>Episodes you download (audio files in the app's folder). If you turn on Compress downloads, new episode files are re-encoded into smaller files on your own device; nothing is sent anywhere for this.</li>
+<li>App settings such as language, theme, volume and playback speed.</li>
+</ul>
+<p>Backup and moving your data:
+- Sela does not send this data to any cloud backup (including Google's).
+- When you move data from an old phone to a new one with Android's device transfer (for example during phone setup or Smart Switch), Sela's database and settings are copied directly between the devices. Downloads are not.
+- You can create a Sela backup file (More, Backup). It contains your subscriptions, radio stations, saved lists, liked episodes, listening progress, queue, history, recent searches and settings. The file is saved wherever you choose and is entirely under your control.</p>
+<p>Android permissions Sela uses:
+- internet and network state, to fetch podcasts and radio and to wait for Wi-Fi before downloading if you chose that;
+- notifications, for new-episode alerts and playback controls;
+- a foreground service for audio playback and a wake lock, so audio keeps playing with the screen off;
+- audio settings, for the volume boost, equaliser and volume levelling.</p>
+<p>Downloads run in the background without a notification. Sela does not ask for access to your contacts, location, microphone, camera or personal files.</p>
+<p>The home screen widget and Android Auto only show data that is already on your device.</p>
+<h2 id="3-third-parties-sela-contacts">3. Third parties Sela contacts</h2>
+<p>Whenever your device connects to a server, that server can see your device's IP address, the time of the request and technical request details (a user agent, usually "Sela/<version> (Android podcast player)"). This applies to every party below. Sela does not send them a name, email address or account identifier, because it has none.</p>
+<h3 id="31-apple-search-podcast-charts-and-radio-song-artwork">3.1 Apple (search, podcast charts and radio song artwork)</h3>
+<ul>
+<li>When you search for a podcast, your search terms are sent to Apple's iTunes Search API. Sela also fetches the top podcast chart and podcast details from Apple's services.</li>
+<li>When you play radio and "Radio song artwork" is on, the artist and title of the song the station is playing are sent to the iTunes Search API to look up the song's cover. You can turn this off under More, Appearance.</li>
+</ul>
+<p>These requests use the fixed country code "ID" and carry no user identifier. Apple handles them under its privacy policy: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></p>
+<h3 id="32-podcast-hosts-radio-stations-and-artwork">3.2 Podcast hosts, radio stations and artwork</h3>
+<ul>
+<li>Podcast RSS feeds and audio files are fetched directly from each podcast's own server (or the hosting service it uses).</li>
+<li>Radio is streamed directly from the stream address you typed in yourself.</li>
+<li>Artwork is fetched from the servers named in the feed or in the search results.</li>
+</ul>
+<p>Sela checks the podcasts you follow for new episodes periodically in the background (roughly every 3 hours), and downloads new episodes automatically only if you turn that setting on. This means those podcast servers are also contacted when you do not have Sela open.</p>
+<p>These servers can tell that your IP address requested a particular feed, episode or stream, and many podcast hosts use this for listener statistics. Sela does not control these servers; each provider's own privacy policy applies. Sela only accepts podcasts over HTTPS. Some radio stations still stream over unencrypted HTTP; if you add such a stream, its traffic may be visible to others on your network.</p>
+<h3 id="33-google-admob-ads">3.3 Google AdMob (ads)</h3>
+<p>Sela shows one banner ad at the bottom of the More page, using the Google Mobile Ads SDK. There are no ads on the player, in episode lists or while audio plays. To serve and measure ads and to prevent ad fraud, the SDK collects and sends to Google:</p>
+<ul>
+<li>the Android advertising ID and similar device or app identifiers;</li>
+<li>your IP address, which may be used to estimate your general location (not GPS location);</li>
+<li>device information such as model, operating system version and language;</li>
+<li>your interactions with ads and the app (for example, an ad being shown or tapped);</li>
+<li>SDK diagnostic and performance data.</li>
+</ul>
+<p>Google may use this data to show personalised ads and may share it with its advertising partners. Google's explanation: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a> and <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<p>How to control ads:
+- Turn off ad personalisation, or reset or delete your advertising ID: open Android Settings, then Google, then Ads (on some devices: Settings, Privacy, Ads).
+- Manage ad personalisation for your Google account: <a href="https://adssettings.google.com">https://adssettings.google.com</a>
+- Where the law requires consent (for example in the European Economic Area, the United Kingdom and Switzerland), Sela shows Google's consent dialog and loads no ad until you have made a choice. You can change your choice at any time through "Ad privacy options" on the More page.</p>
+<h3 id="34-feedback-form-google-sheets">3.4 Feedback form (Google Sheets)</h3>
+<p>The More page has a "Send feedback" form. It is optional. If you press Send, the following is sent over HTTPS to a Google Sheet owned by the developer (through Google Apps Script):</p>
+<ul>
+<li>your message;</li>
+<li>an email address, only if you type one (it can be left blank);</li>
+<li>the app version, device manufacturer and model, Android version and app language;</li>
+<li>the time the message was received.</li>
+</ul>
+<p>This is used only to read feedback, improve the app and reply to you if you gave an email address. The developer does not receive your IP address through this form. Google stores the sheet as a service provider, on servers that may be outside Indonesia and outside your own country. Please do not put sensitive information in the message.</p>
+<h3 id="35-google-play">3.5 Google Play</h3>
+<p>Sela contains no crash-reporting or analytics SDK. If you have allowed usage and diagnostics sharing on your Android device, Google Play collects aggregated crash and performance data (Android vitals) and shows it to the developer. That collection is done by Google, not by Sela.</p>
+<h2 id="4-basis-for-processing">4. Basis for processing</h2>
+<ul>
+<li>Feedback: your consent, given by pressing Send.</li>
+<li>Requests to Apple, podcast servers and radio stations: needed to provide the feature you asked for.</li>
+<li>Ads: your consent where the applicable law requires it; otherwise the legitimate interest of funding a free app.</li>
+</ul>
+<h2 id="5-retention-and-deletion">5. Retention and deletion</h2>
+<ul>
+<li>Data on your device stays until you remove it. You can remove it in the app (More, Data: "Reset cache and cookies" deletes the cache and all downloads; "Reset data" deletes all of Sela's data), through Android Settings (Apps, Sela, Storage, Clear data), or by uninstalling Sela. Backup files you have exported are not removed; delete them yourself if you wish.</li>
+<li>Feedback rows are kept for as long as they are needed to act on the feedback, and for no more than 24 months. You can ask for yours to be deleted at any time by writing to <a href="mailto:kevinamrulloh@gmail.com">kevinamrulloh@gmail.com</a>; mention roughly when you sent it or the email address you gave, so the row can be found.</li>
+<li>Data collected by Google for advertising is kept and deleted under Google's policies; use the controls in section 3.3.</li>
+</ul>
+<h2 id="6-international-transfers">6. International transfers</h2>
+<p>Google and Apple may process the data described above on servers outside your country, including outside Indonesia. That processing is covered by the policies and safeguards they provide.</p>
+<h2 id="7-your-rights">7. Your rights</h2>
+<p>Depending on where you live, data protection law (for example the EU or UK GDPR) may give you the right to access, correct, delete or receive a copy of your personal data, to restrict or object to its processing, to withdraw consent, and to complain to your local data protection authority. Users in Indonesia have the rights set out in Law No. 27 of 2022 on Personal Data Protection.</p>
+<p>California residents: the developer does not sell your personal information. The Google ads in Sela may count as "sharing" for cross-context behavioural advertising under California law; you can opt out by turning off ad personalisation as described in section 3.3.</p>
+<p>The only personal data the developer holds directly is the feedback rows you choose to send. To exercise your rights over them, write to <a href="mailto:kevinamrulloh@gmail.com">kevinamrulloh@gmail.com</a>. Data that exists only on your device can be viewed and deleted by you in the app. For data held by Google or Apple, use the settings and channels they provide.</p>
+<h2 id="8-children">8. Children</h2>
+<p>Sela is intended for users aged 13 and over and is not directed at children. It does not knowingly collect children's personal data. If you are a parent or guardian and learn that your child has sent feedback containing personal data, write to <a href="mailto:kevinamrulloh@gmail.com">kevinamrulloh@gmail.com</a> and it will be deleted.</p>
+<h2 id="9-changes-to-this-policy">9. Changes to this policy</h2>
+<p>This policy may be updated, for example when Sela's features change. The latest version is always on this page with a new effective date. Important changes will be announced in the app or on Sela's Google Play page.</p>
+<h2 id="10-contact">10. Contact</h2>
+<p>Amrulloh, Indonesia. Email: <a href="mailto:kevinamrulloh@gmail.com">kevinamrulloh@gmail.com</a>.</p>
+<p>The Indonesian version is the primary version. If it differs from this English version, the Indonesian version prevails.</p></article></main>
+<footer class="wrap foot"><p>© 2026 Amrulloh · <a href="mailto:kevinamrulloh@gmail.com">kevinamrulloh@gmail.com</a></p><p><a href="#top">Back to top</a></p></footer>
+</body>
+</html>
